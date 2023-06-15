@@ -16,7 +16,7 @@ from AirBnb_NewYork_City_Listings.listings where price>0;
 
 ---Analysis
 ---Summary of each neighbourhood in a specific neighbourhood group 
----Using stored procedure 
+---Using stored procedure,group by,round 
 
 drop procedure if exists AirBnb_NewYork_City_Listings.summaryoflistings;
 create procedure AirBnb_NewYork_City_Listings.summaryoflistings
